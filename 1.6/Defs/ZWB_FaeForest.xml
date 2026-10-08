@@ -156,7 +156,7 @@
 			<ZWB_ButterBells>0.4</ZWB_ButterBells>
 			<ZWB_TrickyWikket>0.4</ZWB_TrickyWikket>
 			
-			<ZWB_FlowerOne>1.0</ZWB_FlowerOne>			<!-- extremely large, but not harvestable -->
+			<ZWB_Skyfell>1.0</ZWB_Skyfell>			<!-- extremely large, but not harvestable -->
 			
 			<!-- high beauty -->
 			<ZWB_JewelOfTheHollow>0.2</ZWB_JewelOfTheHollow>	<!-- only grows around tree stumps -->

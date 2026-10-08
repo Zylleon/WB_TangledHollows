@@ -38,8 +38,8 @@
 	
 	
 	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_FlowerOne</defName>
-		<label>Flower1</label>
+		<defName>ZWB_Skyfell</defName>
+		<label>skyfell</label>
 		<description>PLACEHOLDER</description>
 		<statBases>
 			<Beauty>4</Beauty>
@@ -50,7 +50,7 @@
 		<selectable>true</selectable>
 		<altitudeLayer>Building</altitudeLayer>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/Flower1</texPath>
+			<texPath>ZWB_Textures/Plants/Skyfell</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.1, 0.35, 0.1)</volume>
@@ -116,6 +116,12 @@
 						<harvestYield>1</harvestYield>
 						<harvestChance>0.015</harvestChance>
 						<harvestMinGrowth>0.9</harvestMinGrowth>
+					</li>
+					<li>
+						<harvestedThingDef>ZWB_EggWikket</harvestedThingDef>
+						<harvestYield>20</harvestYield>
+						<harvestChance>0.001</harvestChance>
+						<harvestMinGrowth>0.95</harvestMinGrowth>
 					</li>
 				</extraHarvests>
 			</li>
