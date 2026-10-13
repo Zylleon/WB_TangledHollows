@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <loadFolders>
-	<v1.6>
+	<v1.7>
 		<li>\</li>
-		<li>1.6</li>
+		<li>1.7</li>
 		
 		
-		<!-- <li IfModActive="ReGrowth.BOTR.Core">1.6/Mods/ReGrowth2</li> -->
-		<!-- <li IfModActive="zal.wmbp">1.6/Mods/WMBP</li> -->
+		<!-- <li IfModActive="ReGrowth.BOTR.Core">1.7/Mods/ReGrowth2</li> -->
+		<!-- <li IfModActive="zal.wmbp">1.7/Mods/WMBP</li> -->
 		
-		<!-- <li IfModActive="VanillaExpanded.VCEF" IfModNotActive="Ludeon.RimWorld.Odyssey">1.6/Mods/VanillaFishingExpanded</li> -->
-		<!-- <li IfModActiveAll="Ludeon.RimWorld.Odyssey,VanillaExpanded.VCEF">1.6/Mods/VanillaFishingExpanded_Odyssey</li> -->
+		<!-- <li IfModActive="VanillaExpanded.VCEF" IfModNotActive="Ludeon.RimWorld.Odyssey">1.7/Mods/VanillaFishingExpanded</li> -->
+		<!-- <li IfModActiveAll="Ludeon.RimWorld.Odyssey,VanillaExpanded.VCEF">1.7/Mods/VanillaFishingExpanded_Odyssey</li> -->
 		
 	<!-- animal mod patches -->
-		<!-- <li IfModActive="Park.Akoe">1.6/Mods/Akoe</li> -->
-		<!-- <li IfModActive="lingluo.ELUN982697019.AonyxCinerea">1.6/Mods/AonyxCinerea</li> -->
-		<!-- <li IfModActive="biomesteam.biomesprehistoric">1.6/Mods/BiomesPrehistoric</li> -->
-		<!-- <li IfModActive="Van.Beasts">1.6/Mods/DABeastsMonsters</li> -->
-		<!-- <li IfModActive="zylle.Ducks">1.6/Mods/Ducks</li> -->
-		<!-- <li IfModActive="feb.biopunklivestock">1.6/Mods/FebBiopunkLivestock</li> -->
-		<!-- <li IfModActive="Scurvyez.FabledCervidae">1.6/Mods/FabledCervidae</li> -->
-		<!-- <li IfModActive="Tigerblut.Flommel">1.6/Mods/Flommel</li> -->
-		<!-- <li IfModActive="zal.gianttoads">1.6/Mods/GiantToads</li> -->
-		<!-- <li IfModActive="GRimTerra.Biomesmod">1.6/Mods/GRiNDTerraBiomes</li> -->
-		<!-- <li IfModActive="Hali.NPSBiomes">1.6/Mods/NPSBiomes</li> -->
-		<!-- <li IfModActive="Tigerblut.SeaCucumberChonk">1.6/Mods/PetCucumberChonk</li> -->
-		<!-- <li IfModActive="ElTwoFour.SowoboeBugs">1.6/Mods/SowoboeBugs</li> -->
-		<!-- <li IfModActive="zylle.Turtles">1.6/Mods/Turtles</li> -->
+		<!-- <li IfModActive="Park.Akoe">1.7/Mods/Akoe</li> -->
+		<!-- <li IfModActive="lingluo.ELUN982697019.AonyxCinerea">1.7/Mods/AonyxCinerea</li> -->
+		<!-- <li IfModActive="biomesteam.biomesprehistoric">1.7/Mods/BiomesPrehistoric</li> -->
+		<!-- <li IfModActive="Van.Beasts">1.7/Mods/DABeastsMonsters</li> -->
+		<!-- <li IfModActive="zylle.Ducks">1.7/Mods/Ducks</li> -->
+		<!-- <li IfModActive="feb.biopunklivestock">1.7/Mods/FebBiopunkLivestock</li> -->
+		<!-- <li IfModActive="Scurvyez.FabledCervidae">1.7/Mods/FabledCervidae</li> -->
+		<!-- <li IfModActive="Tigerblut.Flommel">1.7/Mods/Flommel</li> -->
+		<!-- <li IfModActive="zal.gianttoads">1.7/Mods/GiantToads</li> -->
+		<!-- <li IfModActive="GRimTerra.Biomesmod">1.7/Mods/GRiNDTerraBiomes</li> -->
+		<!-- <li IfModActive="Hali.NPSBiomes">1.7/Mods/NPSBiomes</li> -->
+		<!-- <li IfModActive="Tigerblut.SeaCucumberChonk">1.7/Mods/PetCucumberChonk</li> -->
+		<!-- <li IfModActive="ElTwoFour.SowoboeBugs">1.7/Mods/SowoboeBugs</li> -->
+		<!-- <li IfModActive="zylle.Turtles">1.7/Mods/Turtles</li> -->
 	
 	<!-- plant mod patches -->
-		<!-- <li IfModActive="dismarzero.VGP.VGPVegetableGarden">1.6/Mods/VegetableGarden</li> -->
+		<!-- <li IfModActive="dismarzero.VGP.VGPVegetableGarden">1.7/Mods/VegetableGarden</li> -->
 
-	</v1.6>
+	</v1.7>
 </loadFolders>

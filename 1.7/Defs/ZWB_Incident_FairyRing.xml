@@ -2,7 +2,7 @@
 <Defs>
 
 
-	<ZWB_FaeForest.FairyRingIncidentDef>
+	<ZWB_TangledHollows.FairyRingIncidentDef>
 		<defName>ZWB_Incident_FairyRing</defName>
 		<label>fairy ring</label>
 		<category>Misc</category>
@@ -10,7 +10,7 @@
 			<li>Map_PlayerHome</li>
 		</targetTags>
 		<minRefireDays>35</minRefireDays>
-		<workerClass>ZWB_FaeForest.IncidentWorker_FairyRing</workerClass>
+		<workerClass>ZWB_TangledHollows.IncidentWorker_FairyRing</workerClass>
 
 		<bigPlant>ZWB_Elfcap</bigPlant>
 		<smallPlant>ZWB_DeadmansFinger</smallPlant>
@@ -43,15 +43,15 @@
 		<letterText>A ring of wild mushrooms has appeared. These mushrooms are edible, and will yeild a lot of edible mushroom once mature.\n\nYou've heard that people who interfere with fairy rings come to regret it, but those stories are only rumors.</letterText>
 		<letterDef>PositiveEvent</letterDef>
 		<allowedBiomes>
-			<li>ZWB_FaeForest</li>
+			<li>ZWB_TangledHollows</li>
 		</allowedBiomes>
-	</ZWB_FaeForest.FairyRingIncidentDef>
+	</ZWB_TangledHollows.FairyRingIncidentDef>
 
   <ThingDef ParentName="EtherealThingBase">
     <defName>ZWB_FairyRingController</defName>
     <selectable>false</selectable>
     <tickerType>Normal</tickerType>
-    <thingClass>ZWB_FaeForest.FairyRingController</thingClass>
+    <thingClass>ZWB_TangledHollows.FairyRingController</thingClass>
   </ThingDef>
 
 </Defs>

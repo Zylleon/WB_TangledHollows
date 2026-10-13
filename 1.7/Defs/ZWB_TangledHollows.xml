@@ -3,11 +3,12 @@
 
 
 	<BiomeDef>
-		<defName>ZWB_FaeForest</defName>
-		<label>fae forest</label>
+		<defName>ZWB_TangledHollows</defName>
+		<label>tangled hollows</label>
 		<description>PLACEHOLDER</description>
 		<texture>ZWB_Textures/White</texture>
 		<workerClass>ZWBCore.BiomeWorker_Test</workerClass>
+		<!-- <workerClass>ZWB_TangledHollows.BiomeWorker_TangledHollows</workerClass> -->
 		<settlementSelectionWeight>0.2</settlementSelectionWeight>
 		<movementDifficulty>1.5</movementDifficulty>
 		<animalDensity>3.6</animalDensity>

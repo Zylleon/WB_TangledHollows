@@ -1,18 +1,14 @@
 ﻿using RimWorld;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Verse;
 
-namespace ZWB_FaeForest
+namespace ZWB_TangledHollows
 {
-
     [DefOf]
-    internal class FFDefOf
+    internal class ZTHDefOf
     {
         public static ThingDef ZWB_FairyRingController;
-
     }
 }

@@ -1,14 +1,10 @@
 ﻿using RimWorld;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
 using Verse;
-using static UnityEngine.Networking.UnityWebRequest;
 
-namespace ZWB_FaeForest
+namespace ZWB_TangledHollows
 {
     public class FairyRingIncidentDef : IncidentDef
     {
@@ -54,7 +50,7 @@ namespace ZWB_FaeForest
                 return false;
             }
             IEnumerable<IntVec3> testCells = GenRadial.RadialCellsAround(c, 8, true);
-            for(int i = 0; i < 20; i++)
+            for (int i = 0; i < 20; i++)
             {
                 IntVec3 cell = testCells.RandomElement();
                 if (!isValidSpawnCell(c, map))
@@ -110,7 +106,7 @@ namespace ZWB_FaeForest
                         }
                         if (incidentDef.bigPlant.CanEverPlantAt(c, map))
                         {
-                           
+
                             Thing bigPlant = GenSpawn.Spawn(incidentDef.bigPlant, c, map);
                             fairyShrooms.Add(bigPlant);
                             if (targetThing == null)
@@ -131,7 +127,7 @@ namespace ZWB_FaeForest
                         }
                         if (incidentDef.smallPlant.CanEverPlantAt(c, map))
                         {
-                           
+
                             GenSpawn.Spawn(incidentDef.smallPlant, c, map);
                         }
                     }
@@ -149,7 +145,7 @@ namespace ZWB_FaeForest
                     }
                 }
 
-                FairyRingController controller = (FairyRingController)GenSpawn.Spawn(FFDefOf.ZWB_FairyRingController, centerCell, map);
+                FairyRingController controller = (FairyRingController)GenSpawn.Spawn(ZTHDefOf.ZWB_FairyRingController, centerCell, map);
                 controller.fairyShrooms = fairyShrooms;
                 targetThing = controller;
 

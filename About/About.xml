@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ModMetaData>
-	<name>Wayward Biomes: Fae Forest</name>
+	<name>Wayward Biomes: Tangled Hollows</name>
 	<author>zylle</author>
-	<supportedVersions><li>1.6</li></supportedVersions>
-	<packageId>zylle.WaywardBiomes.FaeForest</packageId>
+	<supportedVersions>
+		<li>1.7</li>
+	</supportedVersions>
+	<packageId>zylle.WaywardBiomes.TangledHollows</packageId>
 	<modIconPath IgnoreIfNoMatchingField="True">GUI/ZModLogo</modIconPath>
 	<description>it's a forest
 
 
 Discord: https://discord.gg/RCY5bpCu9q
-Github: https://github.com/Zylleon/WaywardBiomesLandPond/releases/latest
+Github: https://github.com/Zylleon/WB_TangledHollows/releases/latest
 </description>
 	<modDependencies>
 		<li>

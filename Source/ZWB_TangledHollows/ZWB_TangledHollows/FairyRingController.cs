@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Verse;
 
-namespace ZWB_FaeForest
+namespace ZWB_TangledHollows
 {
-    public class FairyRingController : ThingWithComps
+    public  class FairyRingController : ThingWithComps
     {
         public List<Thing> fairyShrooms = new List<Thing>();
-
 
         public override void Destroy(DestroyMode mode = DestroyMode.Vanish)
         {

@@ -1,15 +1,9 @@
 ﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using RimWorld.Planet;
-using Verse;
 
-namespace ZWB_FaeForest
+namespace ZWB_TangledHollows
 {
-    public class BiomeWorker_FaeForest : BiomeWorker
+    public class BiomeWorker_TangledHollows : BiomeWorker
     {
 
         public override float GetScore(BiomeDef biome, Tile tile, PlanetTile planetTile)
@@ -19,15 +13,15 @@ namespace ZWB_FaeForest
                 return -100f;
             }
 
-            if(tile.rainfall < 1400f || tile.rainfall > 2600f)
+            if (tile.rainfall < 1400f || tile.rainfall > 2600f)
             {
                 return 0;
             }
-            if(tile.temperature < -1f || tile.temperature > 11f)
+            if (tile.temperature < -1f || tile.temperature > 11f)
             {
                 return 0;
             }
-            if(tile.swampiness > 0.5f)
+            if (tile.swampiness > 0.5f)
             {
                 return 0f;
             }
