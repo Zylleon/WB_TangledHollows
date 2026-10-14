@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+  <ThingDef ParentName="BigBirdThingBase">
+    <defName>ZWB_Magpeck</defName>
+    <label>magpeck</label>
+    <description>PLACEHOLDER</description>
+    <statBases>
+      <MoveSpeed>4.1</MoveSpeed>
+      <MarketValue>180</MarketValue>
+      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+      <Wildness>0.9</Wildness>
+    </statBases>
+    <race>
+      <herdAnimal>false</herdAnimal>
+      <baseBodySize>0.6</baseBodySize>
+      <baseHealthScale>0.8</baseHealthScale>
+      <baseHungerRate>0.15</baseHungerRate>
+      <foodType>CarnivoreAnimal</foodType>
+      <trainability>Advanced</trainability>
+      <lifeExpectancy>7.5</lifeExpectancy>
+      <soundEating>Bird_Eat</soundEating>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBabyTiny</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Chick_Call</soundWounded>
+          <soundDeath>Pawn_Chick_Call</soundDeath>
+          <soundCall>Pawn_Chick_Call</soundCall>
+          <soundAngry>Pawn_Chick_Call</soundAngry>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.12</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.2</minAge>
+        </li>
+      </lifeStageAges>
+      <!-- <headPosPerRotation> -->
+        <!-- <li>(0.0, 0, 0.22)</li> -->
+        <!-- <li>(0.3, 0, 0.21)</li> -->
+        <!-- <li>(0.0, 0, 0.24)</li> -->
+        <!-- <li>(-0.3, 0, 0.21)</li> -->
+      <!-- </headPosPerRotation> -->
+    </race>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggUnfertilizedDef>ZWB_EggMagpeckUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>ZWB_EggMagpeckFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>3.5</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>1~1</eggCountRange>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>18</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>beak</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BigBirdKindBase">
+    <defName>ZWB_Magpeck</defName>
+    <label>magpeck</label>
+    <race>ZWB_Magpeck</race>
+    <combatPower>80</combatPower>
+    <ecoSystemWeight>0.30</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>ZWB_Textures/Animals/Magpeck/MagpeckFemale</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>ZWB_Textures/Animals/Magpeck/Dessicated_Magpeck</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>ZWB_Textures/Animals/Magpeck/MagpeckFemale</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>ZWB_Textures/Animals/Magpeck/Dessicated_Magpeck</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>ZWB_Textures/Animals/Magpeck/Magpeck</texPath>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>ZWB_Textures/Animals/Magpeck/MagpeckFemale</texPath>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>ZWB_Textures/Animals/Magpeck/Dessicated_Magpeck</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>ZWB_EggMagpeckFertilized</defName>
+    <label>magpeck egg (fert.)</label>
+    <description>A fertilized magpeck egg. If all goes well, it should hatch into a baby magpeck. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <color>(39,54,47)</color>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>11.0</MarketValue>
+      <Nutrition>0.5</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>5</hatcherDaystoHatch>
+        <hatcherPawn>ZWB_Magpeck</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>ZWB_EggMagpeckUnfertilized</defName>
+    <label>magpeck egg (unfert.)</label>
+    <description>An unfertilized magpeck egg. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(62,79,71)</color>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+      <Nutrition>0.5</Nutrition>
+    </statBases>
+  </ThingDef>
+  
+  
+</Defs>
