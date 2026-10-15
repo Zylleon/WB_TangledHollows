@@ -20,7 +20,7 @@
 			<isResourceRock>true</isResourceRock>
 			<mineableThing>ZWB_BlockStonewood</mineableThing>
 			<mineableDropChance>1</mineableDropChance>
-			<mineableYield>16</mineableYield>
+			<mineableYield>9</mineableYield>
 			<biomeSpecific>true</biomeSpecific>
 			<isAirtight>false</isAirtight>
 			<!-- <smoothedThing>SmoothedSandstone</smoothedThing> -->

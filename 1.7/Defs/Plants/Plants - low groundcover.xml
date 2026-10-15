@@ -15,12 +15,12 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/DarkGrass</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-      <shaderParameters>
-        <_FallColorSource>(0.2588, 0.3294, 0.1961)</_FallColorSource>
-        <_FallColorDestination>/ZWB_Textures/Misc/THFallGradient</_FallColorDestination>
-        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
-        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
-      </shaderParameters>
+			<shaderParameters>
+				<_FallColorSource>(0.2588, 0.3294, 0.1961)</_FallColorSource>
+				<_FallColorDestination>/ZWB_Textures/Misc/THFallGradient</_FallColorDestination>
+				<_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+				<_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+			</shaderParameters>
 		</graphicData>
 		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
 		<ingestible/>
@@ -81,7 +81,7 @@
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<Nutrition>0.3</Nutrition> 
+			<Nutrition>0.3</Nutrition>
 			<Beauty>3</Beauty>
 			<BeautyOutdoors>3</BeautyOutdoors>
 		</statBases>
@@ -89,6 +89,12 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/Clover</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+			<shaderParameters>
+				<_FallColorSource>(0.7647, 0.5451, 0.6078)</_FallColorSource>
+				<_FallColorDestination>/ZWB_Textures/Misc/THClovGradient</_FallColorDestination>
+				<_FallTransitionRange>(0.02, 0.15)</_FallTransitionRange>
+				<_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+			</shaderParameters>
 		</graphicData>
 		<hideAtSnowOrSandDepth>0.3</hideAtSnowOrSandDepth>
 		<ingestible/>
@@ -99,7 +105,7 @@
 			<maxMeshCount>16</maxMeshCount>
 			<sowTags>
 				<li>Ground</li>
-			</sowTags>	
+			</sowTags>
 			<visualSizeRange>0.35~0.7</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
 			<wildClusterRadius>6</wildClusterRadius>
@@ -123,12 +129,12 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/CobblersHedge</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-      <shaderParameters>
-        <_FallColorSource>(0.2588, 0.3294, 0.1961)</_FallColorSource>
-        <_FallColorDestination>/ZWB_Textures/Misc/THFallGradient</_FallColorDestination>
-        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
-        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
-      </shaderParameters>
+			<shaderParameters>
+				<_FallColorSource>(0.2588, 0.3294, 0.1961)</_FallColorSource>
+				<_FallColorDestination>/ZWB_Textures/Misc/THFallGradient</_FallColorDestination>
+				<_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+				<_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+			</shaderParameters>
 		</graphicData>
 		<hideAtSnowOrSandDepth>0.4</hideAtSnowOrSandDepth>
 		<ingestible/>

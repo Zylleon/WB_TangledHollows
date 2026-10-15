@@ -103,7 +103,7 @@
 				<perlinFrequency>0.02</perlinFrequency>
 				<perlinLacunarity>0.5</perlinLacunarity>
 				<minFertility>0.20</minFertility>
-				<maxFertility>0.50</maxFertility>
+				<maxFertility>0.40</maxFertility>
 				<thresholds>
 					<li>
 						<terrain>WaterShallow</terrain>

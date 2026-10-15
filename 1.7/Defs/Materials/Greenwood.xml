@@ -5,7 +5,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>ZWB_GreenwoodLog</defName>
 		<label>greenwood log</label>
-		<description>Young woody material. Not very sturdy, but quick to build with and somewhat fire resistant.</description>
+		<description>Young woody material. Not very sturdy, but quick to build with and somewhat fire resistant. Because of its springiness, greenwood furniture is comfortable to sit on.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Things/Greenwood</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -49,7 +49,8 @@
 				<WorkToMake>0.35</WorkToMake>
 				<WorkToBuild>0.35</WorkToBuild>
 				<DoorOpenSpeed>1.2</DoorOpenSpeed>
-				<BedRestEffectiveness>1.05</BedRestEffectiveness>
+				<BedRestEffectiveness>1.02</BedRestEffectiveness>
+				<Comfort>1.02</Comfort>
 			</statFactors>
 			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
 		</stuffProps>

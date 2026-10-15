@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	
+
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_ButterBells</defName>
 		<label>butter bells</label>
@@ -19,6 +19,12 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/ButterBells</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+			<shaderParameters>
+				<_FallColorSource>(0.6314, 0.5686, 0.2392)</_FallColorSource>
+				<_FallColorDestination>/ZWB_Textures/Misc/THBBFallGradient</_FallColorDestination>
+				<_FallTransitionRange>(0.02, 0.15)</_FallTransitionRange>
+				<_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+			</shaderParameters>
 		</graphicData>
 		<ingestible/>
 		<plant>
@@ -39,11 +45,11 @@
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
-	
-	
-	
-	
-	
+
+
+
+
+
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_CroucasTears</defName>
 		<label>crouca's tears</label>
@@ -61,6 +67,12 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/CroucasTears</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+			<shaderParameters>
+				<_FallColorSource>(0.3137, 0.4627, 0.6)</_FallColorSource>
+				<_FallColorDestination>/ZWB_Textures/Misc/THCTFallGradient</_FallColorDestination>
+				<_FallTransitionRange>(0.02, 0.15)</_FallTransitionRange>
+				<_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+			</shaderParameters>
 		</graphicData>
 		<ingestible/>
 		<plant>
@@ -82,9 +94,9 @@
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
-	
-		
-	
+
+
+
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_MonkeysPaintbrush</defName>
 		<label>monkey's paintbrush</label>
@@ -102,6 +114,13 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/MonkeysPaintbrush</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+
+			<shaderParameters>
+				<_FallColorSource>(0.5961, 0.2863, 0.1961)</_FallColorSource>
+				<_FallColorDestination>/ZWB_Textures/Misc/THMPFallGradient</_FallColorDestination>
+				<_FallTransitionRange>(0.02, 0.15)</_FallTransitionRange>
+				<_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+			</shaderParameters>
 		</graphicData>
 		<ingestible/>
 		<plant>
@@ -117,12 +136,12 @@
 			<harvestWork>220</harvestWork>
 			<!-- <maxMeshCount>4</maxMeshCount> -->
 			<visualSizeRange>0.7~1.8</visualSizeRange>
-			<topWindExposure>0.7</topWindExposure> 
+			<topWindExposure>0.7</topWindExposure>
 			<wildClusterRadius>6</wildClusterRadius>
 			<wildClusterWeight>240</wildClusterWeight>
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
-	
-	
+
+
 </Defs>
