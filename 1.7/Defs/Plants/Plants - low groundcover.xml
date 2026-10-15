@@ -15,6 +15,12 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/DarkGrass</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+      <shaderParameters>
+        <_FallColorSource>(0.2588, 0.3294, 0.1961)</_FallColorSource>
+        <_FallColorDestination>/ZWB_Textures/Misc/THFallGradient</_FallColorDestination>
+        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+      </shaderParameters>
 		</graphicData>
 		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
 		<ingestible/>
@@ -117,6 +123,12 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/CobblersHedge</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+      <shaderParameters>
+        <_FallColorSource>(0.2588, 0.3294, 0.1961)</_FallColorSource>
+        <_FallColorDestination>/ZWB_Textures/Misc/THFallGradient</_FallColorDestination>
+        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+      </shaderParameters>
 		</graphicData>
 		<hideAtSnowOrSandDepth>0.4</hideAtSnowOrSandDepth>
 		<ingestible/>

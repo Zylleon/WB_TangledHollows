@@ -56,6 +56,12 @@
 				<volume>(0.1, 0.35, 0.1)</volume>
 				<offset>(0,0,-0.42)</offset>
 			</shadowData>
+      <shaderParameters>
+        <_FallColorSource>(0.2588, 0.3294, 0.1961)</_FallColorSource>
+        <_FallColorDestination>/ZWB_Textures/Misc/THFallGradient</_FallColorDestination>
+        <_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+        <_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+      </shaderParameters>
 		</graphicData>
 		<!-- <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth> -->
 		<ingestible/>
