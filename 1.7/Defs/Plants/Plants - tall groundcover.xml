@@ -127,7 +127,7 @@
 					<li>
 						<harvestedThingDef>ZWB_EggWikket</harvestedThingDef>
 						<harvestYield>20</harvestYield>
-						<harvestChance>0.01</harvestChance>
+						<harvestChance>0.0065</harvestChance>
 						<harvestMinGrowth>0.95</harvestMinGrowth>
 					</li>
 				</extraHarvests>

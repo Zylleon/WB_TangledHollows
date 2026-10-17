@@ -4,7 +4,7 @@
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>ZWB_GreenwoodLog</defName>
-		<label>greenwood log</label>
+		<label>greenwood</label>
 		<description>Young woody material. Not very sturdy, but quick to build with and somewhat fire resistant. Because of its springiness, greenwood furniture is comfortable to sit on.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Things/Greenwood</texPath>
@@ -18,12 +18,12 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>0.3</Mass>
 			<Flammability>0.5</Flammability>
-			<DeteriorationRate>0.7</DeteriorationRate>
-			<StuffPower_Armor_Sharp>0.4</StuffPower_Armor_Sharp>
+			<DeteriorationRate>0.6</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
+			<StuffPower_Armor_Heat>0.55</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
 			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
 			<BluntDamageMultiplier>0.75</BluntDamageMultiplier>
 		</statBases>
@@ -46,8 +46,8 @@
 				<MaxHitPoints>0.4</MaxHitPoints>
 				<Beauty>1.0</Beauty>
 				<Flammability>0.4</Flammability>
-				<WorkToMake>0.35</WorkToMake>
-				<WorkToBuild>0.35</WorkToBuild>
+				<WorkToMake>0.6</WorkToMake>
+				<WorkToBuild>0.6</WorkToBuild>
 				<DoorOpenSpeed>1.2</DoorOpenSpeed>
 				<BedRestEffectiveness>1.02</BedRestEffectiveness>
 				<Comfort>1.02</Comfort>

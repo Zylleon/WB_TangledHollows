@@ -17,8 +17,8 @@
 			<MarketValue>0.9</MarketValue>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Mass>0.27</Mass>
-			<Flammability>0.8</Flammability>
-			<DeteriorationRate>0.6</DeteriorationRate>
+			<Flammability>0.9</Flammability>
+			<DeteriorationRate>0.7</DeteriorationRate>
 			<StuffPower_Armor_Sharp>0.44</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.44</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
@@ -46,13 +46,12 @@
 				<MaxHitPoints>0.45</MaxHitPoints>
 				<Beauty>0.8</Beauty>
 				<Flammability>0.8</Flammability>
-				<WorkToMake>0.5</WorkToMake>
-				<WorkToBuild>0.5</WorkToBuild>
+				<WorkToMake>0.35</WorkToMake>
+				<WorkToBuild>0.35</WorkToBuild>
 				<DoorOpenSpeed>1.2</DoorOpenSpeed>
 			</statFactors>
 			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
 		</stuffProps>
-		<isTechHediff>true</isTechHediff>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
