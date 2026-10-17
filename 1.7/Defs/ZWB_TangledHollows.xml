@@ -15,7 +15,7 @@
 		<plantDensity>0.85</plantDensity>
 		<wildPlantRegrowDays>14</wildPlantRegrowDays>
 		<forageability>1</forageability>
-		<foragedFood>RawBerries</foragedFood><!-- PLACEHOLDER -->
+		<foragedFood>ZWB_Colliberry</foragedFood>
 		<maxFishPopulation>450</maxFishPopulation>
 		<!-- <wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility> -->
 		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
@@ -90,10 +90,10 @@
 			<li>
 				<terrain>ZWB_VintedSoil</terrain>
 				<min>-999</min>
-				<max>.8</max>
+				<max>999</max>
 			</li>
 			<li>
-				<terrain>ZWB_MarshyLoam</terrain>
+				<terrain></terrain>
 				<min>0.8</min>
 				<max>999</max>
 			</li>
@@ -113,7 +113,18 @@
 				</thresholds>
 			</li>
 			<li>
-				<perlinFrequency>0.025</perlinFrequency>
+				<perlinFrequency>0.0215</perlinFrequency>
+				<perlinLacunarity>1.8</perlinLacunarity>
+				<thresholds>
+					<li>
+						<terrain>ZWB_MarshyLoam</terrain>
+						<min>0.55</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+			<li>
+				<perlinFrequency>0.032</perlinFrequency>
 				<perlinLacunarity>1.8</perlinLacunarity>
 				<maxFertility>0.80</maxFertility>
 				<thresholds>
@@ -142,9 +153,9 @@
 		</baseWeatherCommonalities>
 		<wildPlants>
 			<!-- trees -->
-			<ZWB_SpottedRedcap>1.0</ZWB_SpottedRedcap>
+			<ZWB_SpottedRedcap>0.8</ZWB_SpottedRedcap>
 			<ZWB_Strawflower>1.0</ZWB_Strawflower>
-			<ZWB_GnarledOak>0.2</ZWB_GnarledOak>
+			<ZWB_GnarledOak>0.3</ZWB_GnarledOak>
 	
 
 			<!-- ground cover -->
@@ -178,17 +189,13 @@
 			<ZWB_RosyPosy>0.5</ZWB_RosyPosy>		<!-- good pet -->
 			<ZWB_Shobb>0.3</ZWB_Shobb>
 			
-			
 			<!-- large grazers -->
 			<ZWB_Seggie>0.5</ZWB_Seggie>			<!-- pack animal -->
 			<ZWB_Rouse>0.8</ZWB_Rouse>
 			
-			
 			<!-- scavengers -->
 
-
 			<!-- predator/grazers -->
-
 			
 			<!-- predators -->
 			<ZWB_Magpeck>0.1</ZWB_Magpeck>		<!-- small and smart -->

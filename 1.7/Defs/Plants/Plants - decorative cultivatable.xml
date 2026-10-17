@@ -53,7 +53,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_CroucasTears</defName>
 		<label>crouca's tears</label>
-		<description>PLACEHOLDER</description>
+		<description>A pretty blue flower with petals shaped like tear drops.</description>
 		<selectable>true</selectable>
 		<altitudeLayer>Item</altitudeLayer>
 		<statBases>

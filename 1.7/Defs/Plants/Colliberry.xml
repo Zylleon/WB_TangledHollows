@@ -53,6 +53,7 @@
     <graphicData>
       <texPath>ZWB_Textures/Things/Colliberries</texPath>
 	  <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>1.25</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>4.5</MarketValue>

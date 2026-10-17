@@ -6,13 +6,13 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>ZWB_Shobb</defName>
     <label>shobb</label>
-    <description>PLACEHOLDER</description>
+    <description>Small, friendly critters. Almost too cute to hunt.</description>
     <statBases>
       <MoveSpeed>1.0</MoveSpeed>
       <MarketValue>200</MarketValue>
       <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
-      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <ComfyTemperatureMax>50</ComfyTemperatureMax>
       <Wildness>0.75</Wildness>
     </statBases>

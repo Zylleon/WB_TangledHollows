@@ -12,6 +12,7 @@
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<MarketValue>410</MarketValue>
 			<Wildness>0.3</Wildness>
+			<FilthRate>8</FilthRate>
 		</statBases>
 		<uiIconScale>1.15</uiIconScale>
 		<tools>
@@ -81,9 +82,10 @@
 			<predator>false</predator>
 			<leatherDef>Leather_Light</leatherDef>
 			<trainability>Intermediate</trainability>
-			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
-			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.40</manhunterOnDamageChance>
 			<gestationPeriodDays>6.3</gestationPeriodDays>
+			<roamMtbDays>2</roamMtbDays>
 			<waterSeeker>true</waterSeeker>
 			<waterCellCost>1</waterCellCost>
 			<soundEating>Rodent_Eat</soundEating>

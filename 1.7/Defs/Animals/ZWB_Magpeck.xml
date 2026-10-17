@@ -5,7 +5,7 @@
   <ThingDef ParentName="BigBirdThingBase">
     <defName>ZWB_Magpeck</defName>
     <label>magpeck</label>
-    <description>PLACEHOLDER</description>
+    <description>A beautiful green, white, and black bird. It’s smarter than it looks.</description>
     <statBases>
       <MoveSpeed>4.1</MoveSpeed>
       <MarketValue>180</MarketValue>
@@ -33,10 +33,18 @@
         <li>
           <def>AnimalJuvenile</def>
           <minAge>0.12</minAge>
+          <soundWounded>Pawn_Chicken_Wounded</soundWounded>
+          <soundDeath>Pawn_Chicken_Death</soundDeath>
+          <soundCall>Pawn_Chicken_Call</soundCall>
+          <soundAngry>Pawn_Chicken_Angry</soundAngry>
         </li>
         <li>
           <def>AnimalAdult</def>
           <minAge>0.2</minAge>
+          <soundWounded>Pawn_Chicken_Wounded</soundWounded>
+          <soundDeath>Pawn_Chicken_Death</soundDeath>
+          <soundCall>Pawn_Chicken_Call</soundCall>
+          <soundAngry>Pawn_Chicken_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <!-- <headPosPerRotation> -->

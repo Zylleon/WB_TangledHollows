@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_RosyPosy</defName>
 		<label>rosy posy</label>
-		<description>PLACEHOLDER</description>
+		<description>These small, ellusive isopods make great pets.</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
 			<MarketValue>300</MarketValue>

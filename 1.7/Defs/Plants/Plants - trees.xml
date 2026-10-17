@@ -5,7 +5,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>ZWB_SpottedRedcap</defName>
 		<label>spotted redcap</label>
-		<description>PLACEHOLDER</description>
+		<description>A large, slow growing mushroom. Harvestable for shasta, a fibrous material that can be used as a poor substitute for wood.</description>
 		<statBases>
 			<Beauty>4</Beauty>
 			<BeautyOutdoors>4</BeautyOutdoors>
