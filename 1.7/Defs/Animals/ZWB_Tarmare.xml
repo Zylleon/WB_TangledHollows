@@ -27,7 +27,7 @@
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>14</amount>
+              <amount>16</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -44,7 +44,7 @@
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>14</amount>
+              <amount>16</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -53,7 +53,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>11</power>
+        <power>12</power>
         <cooldownTime>2.2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.8</chanceFactor>
@@ -71,7 +71,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>5</power>
+        <power>7</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>

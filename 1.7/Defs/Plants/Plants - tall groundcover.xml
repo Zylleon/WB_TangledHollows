@@ -29,7 +29,9 @@
 			<maxMeshCount>4</maxMeshCount>
 			<visualSizeRange>1.2~2.8</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
-			<lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
+			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+			<minGrowthTemperature>-15</minGrowthTemperature>
+			<minOptimalGrowthTemperature>0</minOptimalGrowthTemperature>
 			<!-- <wildClusterRadius>4</wildClusterRadius> -->
 			<!-- <wildClusterWeight>450</wildClusterWeight> -->
 			<wildOrder>1</wildOrder>
@@ -104,7 +106,7 @@
 		<ingestible/>
 		<plant>
 			<fertilitySensitivity>0.8</fertilitySensitivity>
-			<growDays>8</growDays>
+			<growDays>6</growDays>
 			<fertilityMin>0.5</fertilityMin>
 			<choppedThingDef />
 			<smashedThingDef />

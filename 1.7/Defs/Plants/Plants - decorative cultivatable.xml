@@ -7,7 +7,7 @@
 		<label>butter bells</label>
 		<description>Large yellow flower with several drooping blossoms per stem. Quite pretty.</description>
 		<selectable>true</selectable>
-		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>0.5</Flammability>
