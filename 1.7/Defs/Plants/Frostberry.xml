@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_Frostberry</defName>
+		<label>frostberry</label>
+		<description>PLACEHOLDER</description>
+		<neverMultiSelect>false</neverMultiSelect>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.50</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/Frostberry</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>12</pathCost>
+		<ingestible/>
+		<plant>
+			<sowMinSkill>8</sowMinSkill>
+			<dieIfLeafless>true</dieIfLeafless>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<!-- <fertilityMin>0.95</fertilityMin> -->
+			<fertilitySensitivity>1.05</fertilitySensitivity>
+			<growDays>6</growDays>
+			<immatureGraphicPath>ZWB_Textures/Plants/Frostberry_Immature</immatureGraphicPath>
+			<harvestYield>3</harvestYield>
+			<harvestWork>190</harvestWork>
+			<maxMeshCount>1</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>ZWB_Colliberries</harvestedThingDef>
+			<wildClusterRadius>5</wildClusterRadius>
+			<wildClusterWeight>250</wildClusterWeight>
+			<visualSizeRange>0.5~1.5</visualSizeRange>
+			<topWindExposure>0.15</topWindExposure>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+			<humanFoodPlant>true</humanFoodPlant>
+			<minGrowthTemperature>-26</minGrowthTemperature>
+			<minOptimalGrowthTemperature>-21</minOptimalGrowthTemperature>
+			<maxOptimalGrowthTemperature>-6</maxOptimalGrowthTemperature>
+			<maxGrowthTemperature>0</maxGrowthTemperature>
+		</plant>
+	</ThingDef>
+	
+	
+<!--
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>ZWB_Colliberries</defName>
+    <label>colliberries</label>
+    <description>Large, highly nutritious berries. Nice to eat, even when raw.</description>
+    <graphicData>
+      <texPath>ZWB_Textures/Things/Colliberries</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>1.25</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.5</MarketValue>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <tasteThought></tasteThought>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+  -->
+</Defs>
+

@@ -59,8 +59,6 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/Strawflower</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
-			
-      <shaderType>CutoutPlant</shaderType>
 			<shadowData>
 				<volume>(0.1, 0.35, 0.1)</volume>
 				<offset>(0,0,-0.42)</offset>

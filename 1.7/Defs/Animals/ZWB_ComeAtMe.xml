@@ -85,7 +85,7 @@
 		<defName>ZWB_ComeAtMe</defName>
 		<label>come-at-me</label>
 		<race>ZWB_ComeAtMe</race>
-		<combatPower>33</combatPower>
+		<combatPower>20</combatPower>
 		<ecoSystemWeight>0.25</ecoSystemWeight>
 		<hostileToAll>true</hostileToAll>
 		<lifeStages>
