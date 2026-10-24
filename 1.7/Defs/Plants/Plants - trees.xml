@@ -59,6 +59,8 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/Strawflower</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+			
+      <shaderType>CutoutPlant</shaderType>
 			<shadowData>
 				<volume>(0.1, 0.35, 0.1)</volume>
 				<offset>(0,0,-0.42)</offset>
@@ -73,6 +75,7 @@
 		<!-- <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth> -->
 		<ingestible/>
 		<plant>
+			<leaflessGraphicPath>ZWB_Textures/Plants/Strawflower_Leafless</leaflessGraphicPath>
 			<fertilitySensitivity>0.8</fertilitySensitivity>
 			<growDays>23</growDays>
 			<fertilityMin>0.25</fertilityMin>

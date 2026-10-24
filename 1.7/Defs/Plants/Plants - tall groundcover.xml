@@ -68,6 +68,7 @@
 		<!-- <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth> -->
 		<ingestible/>
 		<plant>
+			<leaflessGraphicPath>ZWB_Textures/Plants/Skyfell_Leafless</leaflessGraphicPath>
 			<fertilitySensitivity>0.8</fertilitySensitivity>
 			<growDays>33</growDays>
 			<fertilityMin>0.25</fertilityMin>
