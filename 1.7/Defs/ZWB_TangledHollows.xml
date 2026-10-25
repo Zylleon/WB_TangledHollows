@@ -203,9 +203,10 @@
 			
 			<!-- predators -->
 			<ZWB_Magpeck>0.1</ZWB_Magpeck>		<!-- small and smart -->
-			<ZWB_Baeer>0.07</ZWB_Baeer>			<!-- very large, but only targets small prey -->
-			<ZWB_Stesch>0.07</ZWB_Stesch>		<!-- large and fast -->
 			<ZWB_Tarmare>0.1</ZWB_Tarmare>		<!-- small, winter -->
+			<ZWB_PiedMarten>0.07</ZWB_PiedMarten>		<!-- small -->
+			<ZWB_Baeer>0.07</ZWB_Baeer>			<!-- very large, but prefers small prey -->
+			<ZWB_Stesch>0.07</ZWB_Stesch>		<!-- large and fast --> 
 			
 			<!-- special -->
 			<ZWB_ComeAtMe>0.15</ZWB_ComeAtMe>	<!-- small, agressive, drives others to rage -->
