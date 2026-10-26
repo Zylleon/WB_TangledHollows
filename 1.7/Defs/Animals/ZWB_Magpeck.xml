@@ -21,6 +21,7 @@
       <trainability>Advanced</trainability>
       <lifeExpectancy>7.5</lifeExpectancy>
       <soundEating>Bird_Eat</soundEating>
+      <predator>true</predator>
       <lifeStageAges>
         <li>
           <def>AnimalBabyTiny</def>

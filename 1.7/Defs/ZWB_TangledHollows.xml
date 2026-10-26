@@ -196,7 +196,7 @@
 			<!-- large grazers -->
 			<ZWB_Seggie>0.5</ZWB_Seggie>			<!-- pack animal -->
 			<ZWB_Rouse>0.8</ZWB_Rouse>				<!-- shearable -->
-			<ZWB_Buzzan>0.3</ZWB_Buzzan>				<!-- shearable -->
+			<ZWB_MasonBee>0.3</ZWB_MasonBee>				<!-- shearable -->
 			
 			<!-- scavengers -->
 
