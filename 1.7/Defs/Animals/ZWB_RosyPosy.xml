@@ -6,11 +6,11 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_RosyPosy</defName>
 		<label>rosy posy</label>
-		<description>These small, ellusive isopods make great pets.</description>
+		<description>These small, elusive isopods make great pets.</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
 			<MarketValue>300</MarketValue>
-			<ComfyTemperatureMin>-55</ComfyTemperatureMin>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
 			<ComfyTemperatureMax>45</ComfyTemperatureMax>
 			<!-- <FilthRate>16</FilthRate> -->
 			<Wildness>0.5</Wildness>

@@ -191,11 +191,12 @@
 			<ZWB_Shobb>0.3</ZWB_Shobb>
 			<Hare>0.5</Hare>
 			<Goat>0.3</Goat>
-			<ZWB_Shaboodle>0.5</ZWB_Shaboodle>
+			<ZWB_Rikiki>0.5</ZWB_Rikiki>
 			
 			<!-- large grazers -->
 			<ZWB_Seggie>0.5</ZWB_Seggie>			<!-- pack animal -->
 			<ZWB_Rouse>0.8</ZWB_Rouse>				<!-- shearable -->
+			<ZWB_Buzzan>0.3</ZWB_Buzzan>				<!-- shearable -->
 			
 			<!-- scavengers -->
 

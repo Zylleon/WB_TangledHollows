@@ -6,11 +6,12 @@
 	<ThingDef ParentName="WoolBase">
 		<defName>ZWB_WoolRouse</defName>
 		<label>rouse wool</label>
-		<description>Soft, light and provides middling insulation.</description>
+		<description>Soft, light and provides middling insulation. Quite comfortrable.</description>
 		<possessionCount>30</possessionCount>
 		<statBases>
 			<StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+			<MarketValue>3.9</MarketValue>
 		</statBases>
 		<graphicData>
 			<color>(117,109,95)</color>
@@ -20,6 +21,29 @@
 			<statFactors>
 				<Beauty>0.6</Beauty>
 				<Comfort>1.05</Comfort>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="WoolBase">
+		<defName>ZWB_WoolBuzzan</defName>
+		<label>buzzan wool</label>
+		<description>Coarse wool that provides middling insulation.</description>
+		<possessionCount>30</possessionCount>
+		<statBases>
+			<StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+			<MarketValue>2.7</MarketValue>
+		</statBases>
+		<graphicData>
+			<color>(161,145,61)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(161,145,61)</color>
+			<statFactors>
+				<Beauty>0.4</Beauty>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>

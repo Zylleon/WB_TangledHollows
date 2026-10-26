@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>ZWB_Buzzan</defName>
+		<label>buzzan</label>
+		<description>PLACEHOLDER - shearable</description>
+		<statBases>
+			<MoveSpeed>4.6</MoveSpeed>
+			<MarketValue>190</MarketValue>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<LeatherAmount>0</LeatherAmount>
+			<Wildness>0.2</Wildness>
+		</statBases>
+		<uiIconScale>2</uiIconScale>
+		<tools>
+			<li>
+				<label>mandibles</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.1</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>BeetleLike</body>
+			<baseBodySize>0.7</baseBodySize>
+			<baseHungerRate>0.19</baseHungerRate>
+			<baseHealthScale>0.8</baseHealthScale>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<lifeExpectancy>12</lifeExpectancy>
+			<trainability>Intermediate</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Dig</li>
+			</specialTrainables>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<roamMtbDays>3</roamMtbDays>
+			<herdAnimal>true</herdAnimal>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.18</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.35</minAge>
+					<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+					<soundDeath>Pawn_Megascarab_Death</soundDeath>
+					<soundCall>Pawn_Megascarab_Call</soundCall>
+					<soundAngry>Pawn_Megascarab_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>ZWB_EggBuzzanUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggBuzzanFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>3.33</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~2</eggCountRange>
+			</li>
+			<li Class="CompProperties_Shearable">
+				<woolDef>ZWB_WoolBuzzan</woolDef>
+				<shearIntervalDays>10</shearIntervalDays>
+				<woolAmount>35</woolAmount>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>AnimalInsect</li>
+			<li>AnimalFarm</li>
+		</tradeTags>
+	</ThingDef>
+
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ZWB_Buzzan</defName>
+		<label>buzzan</label>
+		<race>ZWB_Buzzan</race>
+		<combatPower>55</combatPower>
+		<ecoSystemWeight>0.35</ecoSystemWeight>
+		<wildGroupSize>1~9</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Buzzan/Buzzan</texPath>
+					<drawSize>1.3</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Buzzan/Buzzan_Dessicated</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Buzzan/Buzzan</texPath>
+					<drawSize>1.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Buzzan/Buzzan_Dessicated</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Buzzan/Buzzan</texPath>
+					<drawSize>2.2</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.3, 0.2)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Buzzan/Buzzan_Dessicated</texPath>
+					<drawSize>2.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<moveSpeedFactorByTerrainTag>
+			<li>
+				<key>Insect</key>
+				<value>2.0</value>
+			</li>
+		</moveSpeedFactorByTerrainTag>
+	</PawnKindDef>
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>ZWB_EggBuzzanFertilized</defName>
+		<label>buzzan egg (fert.)</label>
+		<description>A fertilized buzzan egg. If all goes well, it should hatch into a baby buzzan. It can be eaten raw, but it's much better cooked.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<color>(161,145,61)</color>
+			<drawSize>1.1</drawSize>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>11.0</MarketValue>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>ZWB_Buzzan</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>ZWB_EggBuzzanUnfertilized</defName>
+		<label>buzzan egg (unfert.)</label>
+		<description>An unfertilized buzzan egg. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<color>(148,139,92)</color>
+			<drawSize>1.1</drawSize>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>7.0</MarketValue>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+	</ThingDef>
+
+
+</Defs>

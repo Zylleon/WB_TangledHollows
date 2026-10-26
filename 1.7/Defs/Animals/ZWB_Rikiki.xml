@@ -2,8 +2,8 @@
 <Defs>
 
 	<ThingDef ParentName="AnimalThingBase" Name="RatThingBase">
-		<defName>ZWB_Shaboodle</defName>
-		<label>shaboodle</label>
+		<defName>ZWB_Rikiki</defName>
+		<label>rikiki</label>
 		<description>PLACEHOLDER</description>
 		<statBases>
 			<MoveSpeed>5.6</MoveSpeed>
@@ -98,30 +98,30 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase" Name="RatKindBase">
-		<defName>ZWB_Shaboodle</defName>
-		<label>shaboodle</label>
-		<race>ZWB_Shaboodle</race>
+		<defName>ZWB_Rikiki</defName>
+		<label>rikiki</label>
+		<race>ZWB_Rikiki</race>
 		<combatPower>42</combatPower>
 		<ecoSystemWeight>0.35</ecoSystemWeight>
 		<wildGroupSize>2~7</wildGroupSize>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Shaboodle/Shaboodle</texPath>
+					<texPath>ZWB_Textures/Animals/Rikiki/Rikiki</texPath>
 					<drawSize>1.0</drawSize>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>ZWB_Textures/Animals/Shaboodle/ShaboodleFemale</texPath>
+					<texPath>ZWB_Textures/Animals/Rikiki/RikikiFemale</texPath>
 					<drawSize>1.5</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Shaboodle/Dessicated_Shaboodle</texPath>
+					<texPath>ZWB_Textures/Animals/Rikiki/Dessicated_Rikiki</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Shaboodle/Shaboodle</texPath>
+					<texPath>ZWB_Textures/Animals/Rikiki/Rikiki</texPath>
 					<drawSize>1.85</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -129,7 +129,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>ZWB_Textures/Animals/Shaboodle/ShaboodleFemale</texPath>
+					<texPath>ZWB_Textures/Animals/Rikiki/RikikiFemale</texPath>
 					<drawSize>1.85</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -137,13 +137,13 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Rat/Dessicated_Shaboodle</texPath>
+					<texPath>Things/Pawn/Animal/Rat/Dessicated_Rikiki</texPath>
 					<drawSize>1.85</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Shaboodle/Shaboodle</texPath>
+					<texPath>ZWB_Textures/Animals/Rikiki/Rikiki</texPath>
 					<drawSize>2.0</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -151,7 +151,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>ZWB_Textures/Animals/Shaboodle/ShaboodleFemale</texPath>
+					<texPath>ZWB_Textures/Animals/Rikiki/RikikiFemale</texPath>
 					<drawSize>2.0</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -159,7 +159,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Rat/Dessicated_Shaboodle</texPath>
+					<texPath>Things/Pawn/Animal/Rat/Dessicated_Rikiki</texPath>
 					<drawSize>2.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
