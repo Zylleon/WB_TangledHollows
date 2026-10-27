@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="ZWB_TangledHollows"]/wildAnimals</xpath>
+		<value>
+			<L24_Animal_SowoboeBug>0.15</L24_Animal_SowoboeBug>
+		</value>
+	</Operation>
+</Patch>

@@ -49,25 +49,27 @@
 	</ThingDef>
 
 
-  <ThingDef ParentName="LeatherBase">
-    <defName>ZWB_LeatherIsopod</defName>
-    <label>isopod leather</label>
-    <description>PLACEHOLDER</description>
-    <possessionCount>20</possessionCount>
-    <graphicData>
-      <color>(117,114,110)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>3.0</MarketValue>
-      <StuffPower_Armor_Sharp>0.93</StuffPower_Armor_Sharp>
-      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <color>(117,114,110)</color>
-      <statFactors>
-        <Beauty>1.7</Beauty>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
+	<ThingDef ParentName="LeatherBase">
+		<defName>ZWB_LeatherIsopod</defName>
+		<label>isopod leather</label>
+		<description>Leather from a large isopod. Protective, but a poor insulator.</description>
+		<possessionCount>20</possessionCount>
+		<graphicData>
+			<color>(117,114,110)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>3.4</MarketValue>
+			<StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.26</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+			<StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+		</statBases>
+		<stuffProps>
+			<color>(117,114,110)</color>
+			<statFactors>
+				<Beauty>1.7</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
 </Defs>
 

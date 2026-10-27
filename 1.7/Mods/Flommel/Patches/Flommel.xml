@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="ZWB_TangledHollows"]/wildAnimals</xpath>
+		<value>
+			<ChasmoFlommel>0.07</ChasmoFlommel>
+			<FruityFlommel>0.1</FruityFlommel>
+			<FungusFlommel>0.1</FungusFlommel>
+			<PeltFlommel>0.15</PeltFlommel>
+			<PinkFlommel>0.02</PinkFlommel>
+			<WinterkissFlommel>0.03</WinterkissFlommel>
+			<WoollyFlommel>0.15</WoollyFlommel>
+		</value>
+	</Operation>
+	
+
+</Patch>

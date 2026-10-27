@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Rimmessian_fox"]/race/wildBiomes</xpath>
+		<value>
+			<ZWB_TangledHollows>0.05</ZWB_TangledHollows>
+		</value>
+	</Operation>
+	
+	
+</Patch>

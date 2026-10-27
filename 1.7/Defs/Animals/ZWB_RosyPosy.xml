@@ -24,7 +24,7 @@
 			<baseHungerRate>0.15</baseHungerRate>
 			<petness>1</petness>
 			<foodType>OmnivoreAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef><!-- placeholder -->
+			<leatherDef>ZWB_LeatherIsopod</leatherDef>
 			<gestationPeriodDays>6.5</gestationPeriodDays>
 			<roamMtbDays>2</roamMtbDays>
 			<trainability>Intermediate</trainability>

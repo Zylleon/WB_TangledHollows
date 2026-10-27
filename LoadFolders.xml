@@ -13,10 +13,16 @@
 		<!-- <li IfModActiveAll="Ludeon.RimWorld.Odyssey,VanillaExpanded.VCEF">1.7/Mods/VanillaFishingExpanded_Odyssey</li> -->
 		
 	<!-- animal mod patches -->
-		<!-- <li IfModActive="Park.Akoe">1.7/Mods/Akoe</li> -->
+		<li IfModActive="Erin.Foxsquirrel">1.7/Mods/ErinFoxSquirrel</li>
+		<li IfModActive="Van.Beasts">1.7/Mods/DABeastsMonsters</li>
+		<li IfModActive="ACPteam.ACPVanillaStyle">1.7/Mods/ACPVanillaStyle</li>
+		<li IfModActive="hubertdragon.rimmessianfox">1.7/Mods/RimmessianFox</li>
+		<li IfModActive="ElTwoFour.SowoboeBugs">1.7/Mods/SowoboeBugs</li>
+		<li IfModActive="veterano.mythicages.megafaunabestiary">1.7/Mods/MythicAgesMegafauna</li>
+		<li IfModActive="Tigerblut.Flommel">1.7/Mods/Flommel</li>
+		
 		<!-- <li IfModActive="lingluo.ELUN982697019.AonyxCinerea">1.7/Mods/AonyxCinerea</li> -->
 		<!-- <li IfModActive="biomesteam.biomesprehistoric">1.7/Mods/BiomesPrehistoric</li> -->
-		<!-- <li IfModActive="Van.Beasts">1.7/Mods/DABeastsMonsters</li> -->
 		<!-- <li IfModActive="zylle.Ducks">1.7/Mods/Ducks</li> -->
 		<!-- <li IfModActive="feb.biopunklivestock">1.7/Mods/FebBiopunkLivestock</li> -->
 		<!-- <li IfModActive="Scurvyez.FabledCervidae">1.7/Mods/FabledCervidae</li> -->

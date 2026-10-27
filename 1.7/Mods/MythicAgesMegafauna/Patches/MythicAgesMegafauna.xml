@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="ZWB_TangledHollows"]/wildAnimals</xpath>
+		<value>
+			<MA_Aminox>0.05</MA_Aminox>
+			<MA_Capryak>0.05</MA_Capryak>
+			<MA_Deermoss>0.1</MA_Deermoss>
+			<MA_Dunbear>0.01</MA_Dunbear>
+			<MA_Duskhorn>0.05</MA_Duskhorn>
+			<MA_Gnaut>0.12</MA_Gnaut>
+			<MA_Harpeagle>0.15</MA_Harpeagle>
+			<MA_Manehound>0.02</MA_Manehound>
+			<MA_Simbakub>0.05</MA_Simbakub>
+			<MA_SimbakubAlpha>0.01</MA_SimbakubAlpha>
+			<MA_Sporemole>0.03</MA_Sporemole>
+			
+		</value>
+	</Operation>
+	
+	
+	
+</Patch>

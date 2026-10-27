@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="ZWB_TangledHollows"]/wildAnimals</xpath>
+		<value>
+			<ACPKiwi>0.12</ACPKiwi>
+			<ACPPtarmigan>0.3</ACPPtarmigan>
+			<ACPBlackbear>0.05</ACPBlackbear>
+			<ACPAmurLeopard>0.05</ACPAmurLeopard>
+			<ACPMajoreraGoat>0.005</ACPMajoreraGoat>
+			<ACPWoolyHorse>0.03</ACPWoolyHorse>
+			<ACPFishercat>0.07</ACPFishercat>
+			<ACPFerret>0.25</ACPFerret>
+			<ACPChipmunk>0.4</ACPChipmunk>
+			<ACPHedgehog>0.4</ACPHedgehog>
+		</value>
+	</Operation>
+	
+
+</Patch>
