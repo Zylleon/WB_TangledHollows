@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="ZWB_TangledHollows"]/wildAnimals</xpath>
+		<value>
+			<Wolf_Corpse>0.02</Wolf_Corpse>
+		</value>
+	</Operation>
+	
+
+</Patch>

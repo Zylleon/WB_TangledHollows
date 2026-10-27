@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="ZWB_TangledHollows"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_ChocolateRabbit>0.15</Bunnies_ChocolateRabbit>
+			<Bunnies_DustBunny>0.15</Bunnies_DustBunny>
+			<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+			<Bunnies_HoptimusPrime>0.2</Bunnies_HoptimusPrime>
+			<Bunnies_EmpireRabbit>0.1</Bunnies_EmpireRabbit>
+			<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+		</value>
+	</Operation>
+	
+
+</Patch>

@@ -20,6 +20,20 @@
 		<li IfModActive="ElTwoFour.SowoboeBugs">1.7/Mods/SowoboeBugs</li>
 		<li IfModActive="veterano.mythicages.megafaunabestiary">1.7/Mods/MythicAgesMegafauna</li>
 		<li IfModActive="Tigerblut.Flommel">1.7/Mods/Flommel</li>
+		<li IfModActive="tyrannidae.littlecritters">1.7/Mods/LittleCritters</li>
+		<li IfModActive="Ellenot.VaelkorrCreatures">1.7/Mods/CreaturesOfTheVael</li>
+		<li IfModActive="oracle.possumfriends">1.7/Mods/OpossumFriends</li>
+		<li IfModActive="sneezingseal.extinctfaunapack.cenozoic">1.7/Mods/ExtinctFaunaCenozoic</li>
+		<li IfModActive="dismarzero.VGP.Mamuffalo">1.7/Mods/Mamuffalo</li>
+		<li IfModActive="BJD.CorpseWolf">1.7/Mods/CorpseWolf</li>
+		<li IfModActive="zal.AmericanPossum">1.7/Mods/AmericanPossum</li>
+		<li IfModActive="zylle.Ducks">1.7/Mods/zDucks</li>
+		<li IfModActive="zylle.Elephants">1.7/Mods/zElephants</li>
+		<li IfModActive="zylle.HybridAnimals">1.7/Mods/zHybridAnimals</li>
+		<li IfModActive="zylle.Parrots">1.7/Mods/zParrots</li>
+		<li IfModActive="zylle.Slimes">1.7/Mods/zSlimes</li>
+		<li IfModActive="zylle.Turtles">1.7/Mods/zTurtles</li>
+		<li IfModActive="BiomesTeam.Bunnies">1.7/Mods/BiomesBunnies</li>
 		
 		<!-- <li IfModActive="lingluo.ELUN982697019.AonyxCinerea">1.7/Mods/AonyxCinerea</li> -->
 		<!-- <li IfModActive="biomesteam.biomesprehistoric">1.7/Mods/BiomesPrehistoric</li> -->

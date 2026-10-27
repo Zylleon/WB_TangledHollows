@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="ZWB_TangledHollows"]/wildAnimals</xpath>
+		<value>
+			<ZHY_Doguin>0.1</ZHY_Doguin>
+			<ZHY_Chorse>0.2</ZHY_Chorse>
+			<ZHY_Chox>0.1</ZHY_Chox>
+		</value>
+	</Operation>
+	
+
+</Patch>

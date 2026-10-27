@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="ZWB_TangledHollows"]/wildAnimals</xpath>
+		<value>
+			<TYR_Lemming>0.6</TYR_Lemming>
+		</value>
+	</Operation>
+	
+
+</Patch>

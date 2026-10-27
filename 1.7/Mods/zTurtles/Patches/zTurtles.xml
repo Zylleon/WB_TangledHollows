@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="ZWB_TangledHollows"]/wildAnimals</xpath>
+		<value>
+			<ZTT_PaintedSnapvine>0.25</ZTT_PaintedSnapvine>
+			<ZTT_Plasturtle>0.02</ZTT_Plasturtle>
+			<ZTT_Toughback>0.1</ZTT_Toughback>
+			<ZTT_Steelshell>0.03</ZTT_Steelshell>
+			<ZTT_WiggleneckTurtle>0.05</ZTT_WiggleneckTurtle>
+		</value>
+	</Operation>
+	
+
+</Patch>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="ZWB_TangledHollows"]/wildAnimals</xpath>
+		<value>
+			<ZDuck_Bufflehead>0.4</ZDuck_Bufflehead>
+			<ZDuck_Cayuga>0.3</ZDuck_Cayuga>
+			<ZDuck_GreaterMallard>0.5</ZDuck_GreaterMallard>
+			<ZDuck_Quackodile>0.03</ZDuck_Quackodile>
+			<ZDuck_Ducky>0.08</ZDuck_Ducky>
+		</value>
+	</Operation>
+	
+
+</Patch>

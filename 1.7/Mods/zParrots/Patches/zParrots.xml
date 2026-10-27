@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/BiomeDef[defName="ZWB_TangledHollows"]/wildAnimals</xpath>
+		<value>
+			<ZPT_RingneckedParakeet>0.08</ZPT_RingneckedParakeet>
+			<ZPT_Kea>0.07</ZPT_Kea>
+			<ZPT_LilacMegakeet>0.15</ZPT_LilacMegakeet>
+		</value>
+	</Operation>
+	
+
+</Patch>
