@@ -6,6 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>ZWB_Stesch</defName>
     <label>stesch</label>
+    <labelPlural>stesches</labelPlural>
     <description>PLACEHOLDER - predator, fast, smart. horse sized. prefers winter.</description>
       <statBases>
       <MoveSpeed>5.8</MoveSpeed>

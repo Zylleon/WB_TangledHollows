@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat3" or
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+					]/recipeUsers
+		</xpath>
+		<value>
+			<li>ZWB_Baeer</li>
+			<li>ZWB_Rouse</li>
+			<li>ZWB_Seggie</li>
+			<li>ZWB_Stesch</li>
+			<li>ZWB_Wikket</li>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[
+					@Name="ADS_Cat2" or
+					@Name="ADS_Cat1"
+					]/recipeUsers
+		</xpath>
+		<value>
+			<li>ZWB_Magpeck</li>
+			<li>ZWB_MasonBee</li>
+			<li>ZWB_PiedMarten</li>
+			<li>ZWB_RosyPosy</li>
+			<li>ZWB_Shobb</li>
+			<li>ZWB_Tarmare</li>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[	@Name="ADS_Cat1"]/recipeUsers</xpath>
+		<value>
+			<li>ZWB_ComeAtMe</li>
+			<li>ZWB_Rikiki</li>
+		</value>
+	</Operation>
+
+</Patch>
