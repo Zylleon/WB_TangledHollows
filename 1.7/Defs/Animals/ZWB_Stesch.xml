@@ -3,189 +3,190 @@
 
 
 
-  <ThingDef ParentName="AnimalThingBase">
-    <defName>ZWB_Stesch</defName>
-    <label>stesch</label>
-    <labelPlural>stesches</labelPlural>
-    <description>PLACEHOLDER - predator, fast, smart. horse sized. prefers winter.</description>
-      <statBases>
-      <MoveSpeed>5.8</MoveSpeed>
-      <ComfyTemperatureMin>-50</ComfyTemperatureMin>
-      <ComfyTemperatureMax>35</ComfyTemperatureMax>
-      <MarketValue>440</MarketValue>
-      <Wildness>0.8</Wildness>
-    </statBases>
-    <!-- <uiIconScale>1.25</uiIconScale> -->
-    <tools>
-      <li>
-        <label>left claw</label>
-        <labelNoLocation>claw</labelNoLocation>
-        <capacities>
-          <li>Scratch</li>
-        </capacities>
-        <power>18</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>21</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <label>right claw</label>
-        <labelNoLocation>claw</labelNoLocation>
-        <capacities>
-          <li>Scratch</li>
-        </capacities>
-        <power>18</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>21</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>23</power>
-        <cooldownTime>2.6</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.5</chanceFactor>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>12</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
-      </li>
-    </tools>
-    <race>
-      <herdAnimal>false</herdAnimal>
-      <predator>true</predator>
-      <body>QuadrupedAnimalWithPaws</body>
-      <baseHungerRate>0.55</baseHungerRate>
-      <baseBodySize>2.2</baseBodySize>
-      <baseHealthScale>2.75</baseHealthScale>
-      <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherDef>Leather_Panthera</leatherDef>
-      <gestationPeriodDays>11</gestationPeriodDays>
-      <lifeExpectancy>22</lifeExpectancy>
-      <trainability>Advanced</trainability>
-      <specialTrainables>
-        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
-      </specialTrainables>
-      <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
-      <soundEating>PredatorLarge_Eat</soundEating>
-      <!-- <canFishForFood>true</canFishForFood> -->
-      <lifeStageAges>
-        <li>
-          <def>AnimalBaby</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>AnimalJuvenile</def>
-          <minAge>0.28</minAge>
-        </li>
-        <li>
-          <def>AnimalAdult</def>
-          <minAge>0.56</minAge>
-          <soundWounded>Pawn_Cougar_Injured</soundWounded>
-          <soundDeath>Pawn_Cougar_Death</soundDeath>
-          <soundAngry>Pawn_Cougar_Angry</soundAngry>
-        </li>
-      </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>ZWB_Stesch</defName>
+		<label>stesch</label>
+		<description>PLACEHOLDER - predator, fast, smart. horse sized. prefers winter.</description>
+		<statBases>
+			<MoveSpeed>5.8</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>35</ComfyTemperatureMax>
+			<MarketValue>440</MarketValue>
+			<Wildness>0.8</Wildness>
+		</statBases>
+		<!-- <uiIconScale>1.25</uiIconScale> -->
+		<tools>
+			<li>
+				<label>left claw</label>
+				<labelNoLocation>claw</labelNoLocation>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>21</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<labelNoLocation>claw</labelNoLocation>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>21</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>12</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<herdAnimal>false</herdAnimal>
+			<predator>true</predator>
+			<body>QuadrupedAnimalWithPaws</body>
+			<baseHungerRate>0.55</baseHungerRate>
+			<baseBodySize>2.2</baseBodySize>
+			<baseHealthScale>2.75</baseHealthScale>
+			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Panthera</leatherDef>
+			<gestationPeriodDays>11</gestationPeriodDays>
+			<lifeExpectancy>22</lifeExpectancy>
+			<trainability>Advanced</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+			</specialTrainables>
+			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.80</manhunterOnDamageChance>
+			<soundEating>PredatorLarge_Eat</soundEating>
+			<!-- <canFishForFood>true</canFishForFood> -->
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.28</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.56</minAge>
+					<soundWounded>Pawn_Cougar_Injured</soundWounded>
+					<soundDeath>Pawn_Cougar_Death</soundDeath>
+					<soundAngry>Pawn_Cougar_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 
-    </race>
-    <tradeTags>
-      <li>AnimalUncommon</li>
-      <li>AnimalFighter</li>
-    </tradeTags>
-  </ThingDef>
-  
-  
-  
-  
-  <PawnKindDef ParentName="AnimalKindBase">
-    <defName>ZWB_Stesch</defName>
-    <label>stesch</label>
-    <race>ZWB_Stesch</race>
-	<combatPower>180</combatPower>
-    <ecoSystemWeight>0.5</ecoSystemWeight>
-    <lifeStages>
-      <li>
-	  <label>stesch cub</label>
-        <bodyGraphicData>
-          <texPath>ZWB_Textures/Animals/Stesch/Stesch</texPath>
-          <drawSize>1.4</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>ZWB_Textures/Animals/Stesch/Dessicated_Stesch</texPath>
-          <drawSize>1.4</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>ZWB_Textures/Animals/Stesch/Stesch</texPath>
-          <drawSize>1.9</drawSize>
-          <shadowData>
-            <volume>(0.6, 0.45, 0.45)</volume>
-            <offset>(0,0,-0.25)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>ZWB_Textures/Animals/Stesch/Dessicated_Stesch</texPath>
-          <drawSize>1.9</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>ZWB_Textures/Animals/Stesch/Stesch</texPath>
-          <drawSize>2.5</drawSize>
-          <shadowData>
-            <volume>(0.8, 0.6, 0.6)</volume>
-            <offset>(0,0,-0.3)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>ZWB_Textures/Animals/Stesch/Dessicated_Stesch</texPath>
-          <drawSize>2.5</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
-  </PawnKindDef>
-  
-  
-  
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+
+
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ZWB_Stesch</defName>
+		<label>stesch</label>
+		<labelPlural>stesches</labelPlural>
+		<race>ZWB_Stesch</race>
+		<combatPower>180</combatPower>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>stesch cub</label>
+				<labelPlural>stesch cubs</labelPlural>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Stesch/Stesch</texPath>
+					<drawSize>1.4</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Stesch/Dessicated_Stesch</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Stesch/Stesch</texPath>
+					<drawSize>1.9</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Stesch/Dessicated_Stesch</texPath>
+					<drawSize>1.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Stesch/Stesch</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Stesch/Dessicated_Stesch</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
 
 </Defs>
