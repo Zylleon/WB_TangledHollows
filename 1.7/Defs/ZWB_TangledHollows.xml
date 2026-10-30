@@ -5,7 +5,7 @@
 	<BiomeDef>
 		<defName>ZWB_TangledHollows</defName>
 		<label>tangled hollows</label>
-		<description>PLACEHOLDER - The remnants of an ancient, collosal forestdotted with the hollow trunks of the enormous trees that once grew here. Though the soil is poor, this forest is still full of life.</description>
+		<description>PLACEHOLDER - The remnants of an ancient, colossal forest dotted with the hollow trunks of the enormous trees that once grew here. Though the soil is poor, this forest is still full of life.</description>
 		<texture>ZWB_Textures/Misc/TangledHollows</texture>
 		<!-- <workerClass>ZWBCore.BiomeWorker_Test</workerClass> -->
 		<workerClass>ZWB_TangledHollows.BiomeWorker_TangledHollows</workerClass>

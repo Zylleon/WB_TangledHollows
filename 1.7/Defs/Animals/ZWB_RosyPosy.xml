@@ -26,7 +26,6 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<leatherDef>ZWB_LeatherIsopod</leatherDef>
 			<gestationPeriodDays>6.5</gestationPeriodDays>
-			<roamMtbDays>2</roamMtbDays>
 			<trainability>Intermediate</trainability>
 			<specialTrainables>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
