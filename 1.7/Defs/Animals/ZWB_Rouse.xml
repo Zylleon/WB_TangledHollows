@@ -80,7 +80,7 @@
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>
-			<leatherDef>Leather_Light</leatherDef>
+			<leatherDef>Leather_Plain</leatherDef>
 			<trainability>Intermediate</trainability>
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.40</manhunterOnDamageChance>

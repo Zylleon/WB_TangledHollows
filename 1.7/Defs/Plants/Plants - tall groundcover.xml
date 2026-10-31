@@ -124,13 +124,13 @@
 					<li>
 						<harvestedThingDef>ZWB_EggWikket</harvestedThingDef>
 						<harvestYield>1</harvestYield>
-						<harvestChance>0.08</harvestChance>
+						<harvestChance>0.2</harvestChance>
 						<harvestMinGrowth>0.9</harvestMinGrowth>
 					</li>
 					<li>
 						<harvestedThingDef>ZWB_EggWikket</harvestedThingDef>
 						<harvestYield>20</harvestYield>
-						<harvestChance>0.0065</harvestChance>
+						<harvestChance>0.02</harvestChance>
 						<harvestMinGrowth>0.95</harvestMinGrowth>
 					</li>
 				</extraHarvests>

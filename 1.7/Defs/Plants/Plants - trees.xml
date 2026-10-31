@@ -87,6 +87,19 @@
 			<harvestWork>600</harvestWork>
 			<harvestedThingDef>ZWB_GreenwoodLog</harvestedThingDef>
 		</plant>
+		<modExtensions>
+			<li Class="ZWBCore.ModExtension_Plant">
+				<extraHarvests>
+					<li>
+						<harvestedThingDef>RawFungus</harvestedThingDef>
+						<harvestYield>8</harvestYield>
+						<harvestChance>1.0</harvestChance>
+						<harvestMinGrowth>0.9</harvestMinGrowth>
+						<minSkillLevel>0</minSkillLevel>
+					</li>
+				</extraHarvests>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 
