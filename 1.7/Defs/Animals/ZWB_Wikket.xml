@@ -6,12 +6,13 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Wikket</defName>
 		<label>wikket</label>
-		<description>A small, smart creature with mysterious origins. Like a mop, this creature will occasionally absorb filth that it passes over.</description>
+		<description>A small, smart creature with mysterious origins. Like a mop, this creature will absorb some of the filth that it passes over.</description>
 		<statBases>
 			<MoveSpeed>3.7</MoveSpeed>
 			<MarketValue>275</MarketValue>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<Wildness>0.80</Wildness>
+			<ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>
 		</statBases>
 		<tools>
 			<li>

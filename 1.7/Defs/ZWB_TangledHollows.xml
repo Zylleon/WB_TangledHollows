@@ -226,6 +226,7 @@
 			<Rat>1</Rat>
 			<Boomrat>0.4</Boomrat>
 			<Boomalope>0.1</Boomalope>
+			<ZWB_Wikket>0.1</ZWB_Wikket>
 		</pollutionWildAnimals>
 		<coastalWildAnimals>
 			<Seal MayRequire="Ludeon.RimWorld.Odyssey">0.1</Seal>

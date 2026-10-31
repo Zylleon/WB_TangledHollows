@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_TrickyWikket</defName>
+		<label>tricky wikket</label>
+		<description>A large orange flower, rustling in the breeze.</description>
+		<statBases>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>1.25</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<selectable>true</selectable>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/TrickyWikket</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.1, 0.35, 0.1)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+		</graphicData>
+		<!-- <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth> -->
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.8</fertilitySensitivity>
+			<growDays>6</growDays>
+			<fertilityMin>0.5</fertilityMin>
+			<choppedThingDef />
+			<smashedThingDef />
+			<harvestWork>500</harvestWork>
+			<visualSizeRange>1.0~2.0</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>280</wildClusterWeight>
+			<interferesWithRoof>true</interferesWithRoof>
+		</plant>
+		<modExtensions>
+			<li Class="ZWBCore.ModExtension_Plant">
+				<extraHarvests>
+					<li>
+						<harvestedThingDef>ZWB_EggWikket</harvestedThingDef>
+						<harvestYield>1</harvestYield>
+						<harvestChance>0.2</harvestChance>
+						<harvestMinGrowth>0.85</harvestMinGrowth>
+					</li>
+					<li>
+						<harvestedThingDef>ZWB_EggWikket</harvestedThingDef>
+						<harvestYield>20</harvestYield>
+						<harvestChance>0.02</harvestChance>
+						<harvestMinGrowth>0.95</harvestMinGrowth>
+					</li>
+				</extraHarvests>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>
