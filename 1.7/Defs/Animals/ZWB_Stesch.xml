@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Stesch</defName>
 		<label>stesch</label>
-		<description>PLACEHOLDER - predator, fast, smart. horse sized. prefers winter.</description>
+		<description>Swift as the wind and just as fierce. Stesch are extremely dangerous, with long sharp teeth and claws. They'll eat anything they can catch.</description>
 		<statBases>
 			<MoveSpeed>5.8</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -134,7 +134,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>ZWB_Stesch</defName>
 		<label>stesch</label>
-		<labelPlural>stesches</labelPlural>
+		<labelPlural>stesch</labelPlural>
 		<race>ZWB_Stesch</race>
 		<combatPower>180</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>

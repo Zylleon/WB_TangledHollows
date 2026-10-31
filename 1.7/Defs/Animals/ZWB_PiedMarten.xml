@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_PiedMarten</defName>
 		<label>pied marten</label>
-		<description>PLACEHOLDER</description>
+		<description>A small, weasel-like mammal. Martens are smart predators who prey mainly on small birds and rodents.</description>
 		<statBases>
 			<MoveSpeed>3.7</MoveSpeed>
 			<MarketValue>75</MarketValue>

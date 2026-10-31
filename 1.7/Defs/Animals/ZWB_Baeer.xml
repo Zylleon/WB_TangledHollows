@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>ZWB_Baeer</defName>
     <label>baeer</label>
-    <description>PLACEHOLDER</description>
+    <description>A large, hulking bear-like creature. Despite their fearsome appearance, baeers rarely hunt humans, prefering smaller prey. However, they won't hesitate to take advantage of a easy meal.</description>
       <statBases>
       <MoveSpeed>4.6</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
