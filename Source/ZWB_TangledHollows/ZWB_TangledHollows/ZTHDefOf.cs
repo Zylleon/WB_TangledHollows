@@ -10,5 +10,6 @@ namespace ZWB_TangledHollows
     internal class ZTHDefOf
     {
         public static ThingDef ZWB_FairyRingController;
+        public static HediffDef ZWB_Hediff_FRVictim;
     }
 }

@@ -47,11 +47,64 @@
 		</allowedBiomes>
 	</ZWB_TangledHollows.FairyRingIncidentDef>
 
-  <ThingDef ParentName="EtherealThingBase">
-    <defName>ZWB_FairyRingController</defName>
-    <selectable>false</selectable>
-    <tickerType>Normal</tickerType>
-    <thingClass>ZWB_TangledHollows.FairyRingController</thingClass>
-  </ThingDef>
+
+	<ThingDef ParentName="EtherealThingBase">
+		<defName>ZWB_FairyRingController</defName>
+		<selectable>false</selectable>
+		<tickerType>Rare</tickerType>
+		<thingClass>ZWB_TangledHollows.FairyRingController</thingClass>
+		<comps>
+			<li Class="ZWB_TangledHollows.CompProperties_FairyRing">
+				<daysToDespawn>7.0</daysToDespawn>
+				<triggerChance>0.5</triggerChance>
+				<effectRadius>7.0</effectRadius>
+				<hediffEffects>
+					<li>
+						<hediffDef>Hypothermia</hediffDef>
+						<severity>0.2</severity>
+						<maxSeverity>0.7</maxSeverity>
+						<commonality>1.0</commonality>
+						<messageText>{0} feels a chill upon passing through the fairy ring.</messageText>
+					</li>
+					<li>
+						<hediffDef>BloodLoss</hediffDef>
+						<severity>0.2</severity>
+						<maxSeverity>0.55</maxSeverity>
+						<commonality>0.2</commonality>
+						<messageText>{0} feels lightheaded after passing through the fairy ring.</messageText>
+					</li>
+					<li>
+						<hediffDef>AlcoholHigh</hediffDef>
+						<severity>0.3</severity>
+						<maxSeverity>0.8</maxSeverity>
+						<commonality>0.45</commonality>
+						<messageText>After passing through the fairy ring, {0} feels a bit wobbly.</messageText>
+					</li>
+				</hediffEffects>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+  <HediffDef>
+    <defName>ZWB_Hediff_FRVictim</defName>
+    <label>fairy ring victim</label>
+	<hediffClass>HediffWithComps</hediffClass>
+    <description>This person has recently been the victim of a fairy ring.</description>
+    <isBad>false</isBad>
+    <comps>
+		<li Class="HediffCompProperties_Disappears">
+			<disappearsAfterTicks>2000~30000</disappearsAfterTicks>
+			<showRemainingTime>false</showRemainingTime>
+		</li>
+    </comps>
+		<stages>
+			<li>
+				<label>victimized</label>
+				<!-- <becomeVisible>false</becomeVisible> -->
+			</li>
+		</stages>
+  </HediffDef>
 
 </Defs>

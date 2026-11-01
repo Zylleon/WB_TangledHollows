@@ -97,18 +97,24 @@ namespace ZWB_TangledHollows
 
                     if (Rand.Chance(incidentDef.bigPlantCurve.Evaluate(dist)))
                     {
-                        foreach (Thing thing in map.thingGrid.ThingsAt(c).ToList())
-                        {
-                            if (thing as Plant != null)
-                            {
-                                thing.Destroy(DestroyMode.Vanish);
-                            }
-                        }
+
                         if (incidentDef.bigPlant.CanEverPlantAt(c, map))
                         {
+                            foreach (Thing thing in map.thingGrid.ThingsAt(c).ToList())
+                            {
+                                if (thing as Plant != null)
+                                {
+                                    if (thing.def.plant.treeCategory != TreeCategory.Super)
+                                    {
+
+                                        thing.Destroy(DestroyMode.Vanish);
+                                    }
+                                }
+                            }
 
                             Thing bigPlant = GenSpawn.Spawn(incidentDef.bigPlant, c, map);
                             fairyShrooms.Add(bigPlant);
+
                             if (targetThing == null)
                             {
                                 targetThing = bigPlant;
@@ -118,15 +124,19 @@ namespace ZWB_TangledHollows
 
                     else if (Rand.Chance(incidentDef.smallPlantCurve.Evaluate(dist)))
                     {
-                        foreach (Thing thing in map.thingGrid.ThingsAt(c).ToList())
-                        {
-                            if (thing as Plant != null)
-                            {
-                                thing.Destroy(DestroyMode.Vanish);
-                            }
-                        }
+
                         if (incidentDef.smallPlant.CanEverPlantAt(c, map))
                         {
+                            foreach (Thing thing in map.thingGrid.ThingsAt(c).ToList())
+                            {
+                                if (thing as Plant != null)
+                                {
+                                    if (thing.def.plant.treeCategory != TreeCategory.Super)
+                                    {
+                                        thing.Destroy(DestroyMode.Vanish);
+                                    }
+                                }
+                            }
 
                             GenSpawn.Spawn(incidentDef.smallPlant, c, map);
                         }
@@ -138,15 +148,17 @@ namespace ZWB_TangledHollows
                         {
                             if (thing as Plant != null)
                             {
-                                thing.Destroy(DestroyMode.Vanish);
+                                if (thing.def.plant.treeCategory != TreeCategory.Super)
+                                {
+                                    thing.Destroy(DestroyMode.Vanish);
+                                }
                             }
                         }
-
                     }
                 }
 
                 FairyRingController controller = (FairyRingController)GenSpawn.Spawn(ZTHDefOf.ZWB_FairyRingController, centerCell, map);
-                controller.fairyShrooms = fairyShrooms;
+                controller.GetComp<CompFairyRing>().fairyShrooms = fairyShrooms;
                 targetThing = controller;
 
             }
