@@ -5,7 +5,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_MasonBee</defName>
 		<label>mason bee</label>
-		<description>PLACEHOLDER - shearable, can be trained to dig</description>
+		<description>A large flightless bee that produces a coarse wool. Descended from carpenter bees, these much larger mason bees can be trained to dig through stone.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<MarketValue>190</MarketValue>

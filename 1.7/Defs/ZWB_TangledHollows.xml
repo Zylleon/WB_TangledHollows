@@ -5,7 +5,7 @@
 	<BiomeDef>
 		<defName>ZWB_TangledHollows</defName>
 		<label>tangled hollows</label>
-		<description>PLACEHOLDER - The remnants of an ancient, colossal forest dotted with the hollow trunks of the enormous trees that once grew here. Though the soil is poor, this forest is still full of life.</description>
+		<description>The remnants of an ancient, colossal forest dotted with the hollow trunks of the enormous trees that once grew here. Though the soil is poor, this overgrown forest is still crowded with giant flowers and fungi. Many strange and unique creatures make this place their home.</description>
 		<texture>ZWB_Textures/Misc/TangledHollows</texture>
 		<!-- <workerClass>ZWBCore.BiomeWorker_Test</workerClass> -->
 		<workerClass>ZWB_TangledHollows.BiomeWorker_TangledHollows</workerClass>
@@ -191,7 +191,7 @@
 			<ZWB_Shobb>0.3</ZWB_Shobb>
 			<Hare>0.5</Hare>
 			<Goat>0.3</Goat>
-			<ZWB_Rikiki>0.5</ZWB_Rikiki>
+			<ZWB_NectarSniffer>0.5</ZWB_NectarSniffer>
 			
 			<!-- large grazers -->
 			<ZWB_Seggie>0.5</ZWB_Seggie>			<!-- pack animal -->
@@ -203,11 +203,11 @@
 			<!-- predator/grazers -->
 			
 			<!-- predators -->
-			<ZWB_Magpeck>0.1</ZWB_Magpeck>		<!-- small and smart -->
+			<ZWB_Magpeck>0.15</ZWB_Magpeck>		<!-- small and smart -->
 			<ZWB_Tarmare>0.1</ZWB_Tarmare>		<!-- small, winter -->
 			<ZWB_PiedMarten>0.07</ZWB_PiedMarten>		<!-- small -->
 			<ZWB_Baeer>0.07</ZWB_Baeer>			<!-- very large, but prefers small prey -->
-			<ZWB_Stesch>0.07</ZWB_Stesch>		<!-- large and fast --> 
+			<ZWB_Stesch>0.12</ZWB_Stesch>		<!-- large and fast --> 
 			
 			<!-- special -->
 			<ZWB_ComeAtMe>0.15</ZWB_ComeAtMe>	<!-- small, agressive, drives others to rage -->

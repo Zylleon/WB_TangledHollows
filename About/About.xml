@@ -7,7 +7,17 @@
 	</supportedVersions>
 	<packageId>zylle.WaywardBiomes.TangledHollows</packageId>
 	<modIconPath IgnoreIfNoMatchingField="True">GUI/ZModLogo</modIconPath>
-	<description>The remnants of an ancient, colossal forest dotted with the hollow trunks of the enormous trees that once grew here. Though the soil is poor, this forest is still full of life.
+	<description>The remnants of an ancient, colossal forest dotted with the hollow trunks of the enormous trees that once grew here. Though the soil is poor, this overgrown forest is still crowded with giant flowers and fungi. Many strange and unique creatures make this place their home.
+	
+Requires Wayward Biomes: Core - https://steamcommunity.com/sharedfiles/filedetails/?id=3710302618
+
+This is a cold-to-temperate biome with moderate difficulty.
+
+Credits:
+adHerry
+Halicade
+SneazingSeal
+Draegon
 
 
 Discord: https://discord.gg/vGR6PGTK9c
@@ -24,7 +34,7 @@ Github: https://github.com/Zylleon/WB_TangledHollows/releases/latest
 			<packageId>zylle.WaywardBiomes.Core</packageId>
 			<displayName>Wayward Biomes: Core</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3710302618</steamWorkshopUrl>
-			<downloadUrl>https://github.com/Zylleon/WaywardBiomesCore</downloadUrl>
+			<downloadUrl>https://github.com/Zylleon/WaywardBiomesCore/releases/latest</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>

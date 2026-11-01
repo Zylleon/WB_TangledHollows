@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>ZWB_Shobb</defName>
     <label>shobb</label>
-    <description>Small, friendly critters. Almost too cute to hunt.</description>
+    <description>Small, friendly critters. Almost too cute to hunt - they almost look like people.</description>
     <statBases>
       <MoveSpeed>1.0</MoveSpeed>
       <MarketValue>200</MarketValue>
@@ -55,7 +55,7 @@
       <baseHungerRate>0.09</baseHungerRate>
       <baseHealthScale>0.6</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-      <leatherDef>Leather_Light</leatherDef>
+      <leatherDef>Leather_Human</leatherDef>
       <lifeExpectancy>13</lifeExpectancy>
       <trainability>Intermediate</trainability>
       <herdAnimal>true</herdAnimal>

@@ -66,20 +66,20 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPaws</body>
-			<baseBodySize>0.4</baseBodySize>
-			<baseHungerRate>0.12</baseHungerRate>
-			<baseHealthScale>0.75</baseHealthScale>
+			<baseBodySize>0.45</baseBodySize>
+			<baseHungerRate>0.08</baseHungerRate>
+			<baseHealthScale>0.8</baseHealthScale>
 			<foodType>OmnivoreAnimal</foodType>
 			<herdAnimal>true</herdAnimal>
 			<predator>true</predator>
 			<leatherDef>Leather_Light</leatherDef>
 			<trainability>Advanced</trainability>
 			<petness>0.5</petness>
-			<manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
+			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.80</manhunterOnDamageChance>
-			<waterSeeker>true</waterSeeker>
+			<!-- <waterSeeker>true</waterSeeker> -->
 			<hasGenders>false</hasGenders>
-			<waterCellCost>1</waterCellCost>
+			<!-- <waterCellCost>1</waterCellCost> -->
 			<soundEating>Rodent_Eat</soundEating>
 			<lifeExpectancy>42</lifeExpectancy>
 			<lifeStageAges>

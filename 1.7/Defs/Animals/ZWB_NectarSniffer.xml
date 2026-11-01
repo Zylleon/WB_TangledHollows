@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="AnimalThingBase" Name="RatThingBase">
-		<defName>ZWB_Rikiki</defName>
-		<label>rikiki</label>
-		<description>PLACEHOLDER</description>
+		<defName>ZWB_NectarSniffer</defName>
+		<label>nectar sniffer</label>
+		<description>A midsized rodent-like animal, found living among giant flowers.</description>
 		<statBases>
 			<MoveSpeed>5.6</MoveSpeed>
 			<MarketValue>150</MarketValue>
@@ -98,30 +98,30 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase" Name="RatKindBase">
-		<defName>ZWB_Rikiki</defName>
-		<label>rikiki</label>
-		<race>ZWB_Rikiki</race>
+		<defName>ZWB_NectarSniffer</defName>
+		<label>nectar sniffer</label>
+		<race>ZWB_NectarSniffer</race>
 		<combatPower>42</combatPower>
 		<ecoSystemWeight>0.35</ecoSystemWeight>
 		<wildGroupSize>2~7</wildGroupSize>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Rikiki/Rikiki</texPath>
+					<texPath>ZWB_Textures/Animals/NectarSniffer/NectarSniffer</texPath>
 					<drawSize>1.0</drawSize>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>ZWB_Textures/Animals/Rikiki/RikikiFemale</texPath>
+					<texPath>ZWB_Textures/Animals/NectarSniffer/NectarSnifferFemale</texPath>
 					<drawSize>1.5</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Rikiki/Dessicated_Rikiki</texPath>
+					<texPath>ZWB_Textures/Animals/NectarSniffer/Dessicated_NectarSniffer</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Rikiki/Rikiki</texPath>
+					<texPath>ZWB_Textures/Animals/NectarSniffer/NectarSniffer</texPath>
 					<drawSize>1.85</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -129,7 +129,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>ZWB_Textures/Animals/Rikiki/RikikiFemale</texPath>
+					<texPath>ZWB_Textures/Animals/NectarSniffer/NectarSnifferFemale</texPath>
 					<drawSize>1.85</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
@@ -137,13 +137,13 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Rat/Dessicated_Rikiki</texPath>
+					<texPath>ZWB_Textures/Animals/NectarSniffer/Dessicated_NectarSniffer</texPath>
 					<drawSize>1.85</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Rikiki/Rikiki</texPath>
+					<texPath>ZWB_Textures/Animals/NectarSniffer/NectarSniffer</texPath>
 					<drawSize>2.0</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -151,7 +151,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>ZWB_Textures/Animals/Rikiki/RikikiFemale</texPath>
+					<texPath>ZWB_Textures/Animals/NectarSniffer/NectarSnifferFemale</texPath>
 					<drawSize>2.0</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -159,7 +159,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Rat/Dessicated_Rikiki</texPath>
+					<texPath>ZWB_Textures/Animals/NectarSniffer/Dessicated_NectarSniffer</texPath>
 					<drawSize>2.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
