@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+<!-- incidents -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/IncidentDef[defName="AmbrosiaSprout"]/allowedBiomes</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/IncidentDef[defName="HerdMigration"]/allowedBiomes</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+			
+</Patch>

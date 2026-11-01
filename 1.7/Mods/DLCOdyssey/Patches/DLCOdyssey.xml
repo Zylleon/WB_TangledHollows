@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[@Name="AncientStructureMutBase"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[defName="PlantGrove"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[defName="WildPlants"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[defName="ArcheanTrees"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[defName="FoggyMutator"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[@Name="BaseLakeMut"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[defName="Pond"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[defName="Wetland"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[defName="HotSprings"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[defName="Cliffs"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[defName="Basin"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[@Name="BaseCoastMut"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TileMutatorDef[defName="MixedBiome"]/biomeWhitelist</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+	
+	
+<!-- incidents -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/IncidentDef[defName="BioluminescentSpores"]/allowedBiomes</xpath>
+		<value>
+			<li>ZWB_TangledHollows</li>
+		</value>
+	</Operation>
+			
+</Patch>

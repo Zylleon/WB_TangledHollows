@@ -10,7 +10,7 @@
 		<!-- <li IfModActive="ReGrowth.BOTR.Core">1.7/Mods/ReGrowth2</li> -->
 		<!-- <li IfModActive="zal.wmbp">1.7/Mods/WMBP</li> -->
 		
-		<!-- <li IfModActive="VanillaExpanded.VCEF" IfModNotActive="Ludeon.RimWorld.Odyssey">1.7/Mods/VanillaFishingExpanded</li> -->
+		<li IfModActive="Ludeon.RimWorld.Odyssey">1.7/Mods/DLCOdyssey</li>
 		<!-- <li IfModActiveAll="Ludeon.RimWorld.Odyssey,VanillaExpanded.VCEF">1.7/Mods/VanillaFishingExpanded_Odyssey</li> -->
 		
 	<!-- animal mod patches -->
