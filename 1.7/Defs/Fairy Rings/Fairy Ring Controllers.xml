@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+	<ThingDef ParentName="EtherealThingBase">
+		<defName>ZWB_FairyRingSpirit</defName>
+		<selectable>false</selectable>
+		<tickerType>Rare</tickerType>
+		<thingClass>ZWB_TangledHollows.FairyRingSpirit</thingClass>
+		<comps>
+			<li Class="ZWB_TangledHollows.CompProperties_FairyRing">
+				<daysToDespawn>7.0</daysToDespawn>
+				<triggerChance>0.65</triggerChance>
+				<effectRadius>7.0</effectRadius>
+				<hediffEffects>
+					<li>
+						<hediffDef>Hypothermia</hediffDef>
+						<severity>0.2</severity>
+						<maxSeverity>0.7</maxSeverity>
+						<commonality>1.0</commonality>
+						<messageText>{0} feels a chill upon passing through the fairy ring.</messageText>
+					</li>
+					<li>
+						<hediffDef>BloodLoss</hediffDef>
+						<severity>0.2</severity>
+						<maxSeverity>0.55</maxSeverity>
+						<commonality>0.2</commonality>
+						<messageText>{0} feels lightheaded after passing through the fairy ring.</messageText>
+					</li>
+					<li>
+						<hediffDef>AlcoholHigh</hediffDef>
+						<severity>0.3</severity>
+						<maxSeverity>0.8</maxSeverity>
+						<commonality>0.45</commonality>
+						<messageText>After passing through the fairy ring, {0} feels a bit wobbly.</messageText>
+					</li>
+				</hediffEffects>
+				<badOutcome>ColdSnap</badOutcome>
+				<badOutcomeDuration>0.5~1.0</badOutcomeDuration>
+				<badLetterLabel>Fairy chill</badLetterLabel>
+				<badLetterText>As punishment for the destruction of a fairy ring, a short cold snap has descended upon you. Let this be a reminder about the importance of protecting nature.\n\nThe spirit of the fairy ring has fled. Any remaining mushrooms may be harvested without consequence.</badLetterText>
+			
+				<midLetterLabel>Fairy ring complete</midLetterLabel>
+				<midLetterText>The spirit of the fairy ring has departed. Any remaining mushrooms may be harvested without consequence.</midLetterText>
+				
+				<goodOutcome>PsychicSoothe</goodOutcome>
+				<goodOutcomeDuration>0.5~1.0</goodOutcomeDuration>
+				<goodLetterLabel>Fairy soothe</goodLetterLabel>
+				<goodLetterText>After protecting a fairy ring, your colonists feel calm and happy.\n\nThe spirit of the fairy ring has departed. The mushrooms may now be harvested without consequence.</goodLetterText>
+				<!-- <goodLetterText>In exchange for protecting a fairy ring, the spirits have caused the sky to light up in many colors.\n\nThe spirit of the fairy ring has departed. The mushrooms may now be harvested without consequence.</goodLetterText> -->
+			</li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

@@ -157,8 +157,10 @@ namespace ZWB_TangledHollows
                     }
                 }
 
-                FairyRingController controller = (FairyRingController)GenSpawn.Spawn(ZTHDefOf.ZWB_FairyRingController, centerCell, map);
-                controller.GetComp<CompFairyRing>().fairyShrooms = fairyShrooms;
+                FairyRingSpirit controller = (FairyRingSpirit)GenSpawn.Spawn(ZTHDefOf.ZWB_FairyRingSpirit, centerCell, map);
+                //controller.GetComp<CompFairyRing>().fairyShrooms = fairyShrooms;
+                controller.fairyShrooms = fairyShrooms;
+                controller.shroomCount = fairyShrooms.Count();
                 targetThing = controller;
 
             }

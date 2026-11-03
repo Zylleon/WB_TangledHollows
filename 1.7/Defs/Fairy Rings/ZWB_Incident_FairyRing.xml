@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ZWB_TangledHollows.FairyRingIncidentDef>
+		<defName>ZWB_Incident_FairyRing</defName>
+		<label>fairy ring</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<minRefireDays>25</minRefireDays>
+		<workerClass>ZWB_TangledHollows.IncidentWorker_FairyRing</workerClass>
+
+		<bigPlant>ZWB_Elfcap</bigPlant>
+		<smallPlant>ZWB_DeadmansFinger</smallPlant>
+
+		<bigPlantCurve>
+			<points>
+				<li>(5, 0)</li>
+				<li>(7, 0.6)</li>
+				<li>(9, 0)</li>
+			</points>
+		</bigPlantCurve>
+		<smallPlantCurve>
+			<points>
+				<li>(3, 0)</li>
+				<li>(7, 0.9)</li>
+				<li>(10, 0)</li>
+			</points>
+		</smallPlantCurve>
+		<noPlantCurve>
+			<points>
+				<li>(0, 0.5)</li>
+				<li>(6, 1)</li>
+				<li>(8, 0.9)</li>
+				<li>(11.5, 0)</li>
+			</points>
+		</noPlantCurve>
+
+		<baseChance>1.0</baseChance>
+		<letterLabel>Fairy ring</letterLabel>
+		<letterText>A ring of wild mushrooms has appeared. These mushrooms are edible, and will yeild a lot of edible mushroom once mature.\n\nYou've heard that people who interfere with fairy rings come to regret it, but those stories are only rumors.</letterText>
+		<letterDef>PositiveEvent</letterDef>
+		<allowedBiomes>
+			<li>ZWB_TangledHollows</li>
+		</allowedBiomes>
+	</ZWB_TangledHollows.FairyRingIncidentDef>
+
+
+</Defs>
