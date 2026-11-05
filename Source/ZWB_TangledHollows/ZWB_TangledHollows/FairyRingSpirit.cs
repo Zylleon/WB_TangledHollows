@@ -149,12 +149,12 @@ namespace ZWB_TangledHollows
                 Log.Message("The fairies are pleased");
                 int duration = Mathf.RoundToInt(PropsFRController.goodOutcomeDuration.RandomInRange * 60000f);
                 GameCondition gameCondition = GameConditionMaker.MakeCondition(PropsFRController.goodOutcome, duration);
-                Find.LetterStack.ReceiveLetter(PropsFRController.goodLetterText, PropsFRController.goodLetterText, LetterDefOf.PositiveEvent, new TargetInfo(controller.Position, controller.Map));
+                Find.LetterStack.ReceiveLetter(PropsFRController.goodLetterLabel, PropsFRController.goodLetterText, LetterDefOf.PositiveEvent, new TargetInfo(controller.Position, controller.Map));
             }
             else
             {
                 //mid
-                Find.LetterStack.ReceiveLetter(PropsFRController.midLetterText, PropsFRController.midLetterText, LetterDefOf.NeutralEvent, new TargetInfo(controller.Position, controller.Map));
+                Find.LetterStack.ReceiveLetter(PropsFRController.midLetterLabel, PropsFRController.midLetterText, LetterDefOf.NeutralEvent, new TargetInfo(controller.Position, controller.Map));
 
             }
 
